@@ -1,0 +1,106 @@
+.body{
+    width: 1930;
+    height: 89.25vh;
+    top: 0;
+    left: 0;
+    margin-left: -0.5%;
+    font-family: 'Poppins', sans-serif;
+    // background-color: #49C0E0;
+    background-color: #FFBE2D;
+}
+.joy{
+    height: 89.25vh;
+    margin-left:35px;
+    z-index: -1;
+
+}
+
+.container{
+    width: 450px;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 900px;
+    margin-top: -73vh;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    border:none;
+    .Create{
+        margin-left: 20px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .input{
+        font-size: 12px;
+        font-weight: bold;
+        height: 24px;
+        border-radius: 8px;
+        // border-color: #ffffff;
+        border: none;
+        background-color: #ffd54f;
+        padding: 10px;
+        color: white;
+    }
+    .Email{
+        @extend .input;
+        // margin-top: 10px;
+        margin-left: 25px;
+    }
+    .Password{
+        @extend .input;
+        margin-top: 20px;
+        margin-left: 16px;
+    }
+    .button{
+        padding: 8px;
+        border-radius: 10%;
+        color: white;
+        background-color: #49c0b6;
+        border: none;
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+    .or{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .apilogin{
+        display: flex;
+        flex-direction: row;
+        margin-left: 48px;
+        margin-top: 24px;
+        .company{
+            width: 30px;
+            height: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    }
+
+    .Already{
+        margin-top: 34px;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .Link{
+        color: #5CBBF5;
+        text-decoration: underline #5CBBF5;
+        cursor: pointer;
+    }
+    .Link:hover{
+        color: salmon;
+        text-decoration: underline salmon;
+        cursor: pointer;
+    }
+}
+
+.funmessages{
+    width: 220px;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: -18%;
+    margin-left: 4%;
+}

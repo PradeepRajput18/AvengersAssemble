@@ -1,0 +1,20 @@
+
+<div class="body">
+    <app-topnav></app-topnav>
+
+    <img src="../../../assets/homeback.webp" class="topbackground" alt="" srcset="">
+
+    <div class="attraction">Shop things at a <br> few easy clicks</div>
+    <div class="attractionbelow">get started to by groceries needed and been <br>
+        waited to be at your home</div>
+
+
+    <div class="eventbox">
+        <h3 style="font-weight: 300;">Upcoming events</h3>
+         <ol class="order" *ngFor="let list of events;index as i">
+             <div class="list">{{i+1}}.{{list}}</div>
+         </ol>
+
+         <div class="deals" id="dealsid">Deals Today</div>
+    </div>
+</div>

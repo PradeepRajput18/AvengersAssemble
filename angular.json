@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gabber"
+    }
+  },
+  "defaultProject": "gabber",
+  "cli": {
+    "analytics": "27c26eb4-44d1-431b-bad6-6d0425bda41f"
+  }
 }

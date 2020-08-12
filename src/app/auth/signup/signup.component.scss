@@ -1,0 +1,125 @@
+.box{
+    top: 0;
+    left:0;
+    width: 750px;
+    height: 90.5vh;
+    background-color: #18181C;
+    margin-left: -1%;
+    position: static;
+}
+
+.Video{
+   width: 500px;
+   height: auto;
+   margin-left: 10%;
+}
+
+.intro{
+    font-family: 'Poppins', sans-serif;
+    color:#49c0b6;
+    margin-left: 35%;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.loginbox{
+    background-color: #FF7A7D;
+    width: 776px;
+    height: 90vh;
+    margin-left: 735px;
+    margin-top: -90.4vh;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 450px;
+    height: 420px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 920px;
+    margin-top: -80vh;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    border:none;
+    
+    .Create{
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+    .input{
+        font-size: 12px;
+        font-weight: bold;
+        height: 24px;
+        border-radius: 8px;
+        // border-color: #ffffff;
+        border: none;
+        background-color: #dbfaf7;
+        padding: 10px;
+        color: white;
+    }
+    .Name{
+       @extend .input;
+       margin-top: 5px;
+       margin-left: 16px;
+    }
+    .Email{
+        @extend .input;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .Password{
+        @extend .input;
+        margin-top: 30px;
+        margin-left: 16px;
+    }
+    .CPassword{
+        @extend .input;
+        margin-left: 25px;
+
+    }
+    .button{
+        padding: 9px;
+        border-radius: 10%;
+        color: white;
+        background-color: #60ddd3;
+        border: none;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .or{
+        text-align: center;
+        margin-top: 18px;
+    }
+    .apilogin{
+        display: flex;
+        flex-direction: row;
+        margin-left: 48px;
+        margin-top: 24px;
+        .company{
+            width: 30px;
+            height: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    }
+
+    .Already{
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .Link{
+        color: #5CBBF5;
+        text-decoration: underline #5CBBF5;
+        cursor: pointer;
+    }
+    .Link:hover{
+        color: salmon;
+        text-decoration: underline salmon;
+        cursor: pointer;
+    }
+}

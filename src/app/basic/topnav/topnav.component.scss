@@ -1,0 +1,86 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    // background-color: #e9d7da;
+    top: 0;
+    left: 0;
+    padding: 0.4%;
+    margin-top: -0.6%;
+    margin-left: -0.2%;
+    font-family: 'Poppins', sans-serif;
+    background:transparent;
+}
+
+.brand{
+    margin-left: 30px;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 10px;
+}
+
+.Home{
+    margin-left: 25%;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.Login,.About{
+    margin-left: 5%;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.UserProfile{
+    width: 34px;
+    height: 34px;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.UserName{
+    margin-left: 1%;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.search{
+     height: 30px;
+     border-width: 2px;
+     border-radius: 5px;
+     margin-top: 12px;
+     margin-left: 80px;
+     width: 250px;
+}
+
+.Home:hover{
+    margin-left: 55%;
+    margin-top: 17px;
+    text-decoration: underline black;
+    cursor: pointer;
+}
+
+.Login:hover,.About:hover{
+    margin-left: 5%;
+    margin-top: 17px;
+    text-decoration: underline black;
+    cursor: pointer;
+}
+
+.UserName:hover{
+    margin-left: 1%;
+    margin-top: 17px;
+    cursor: pointer;
+    color: #5EC8E7;
+}
+
+.UserProfile:hover{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 12px;
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: ease-in 0.2s;
+}
