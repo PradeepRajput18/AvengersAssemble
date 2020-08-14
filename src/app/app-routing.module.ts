@@ -5,7 +5,7 @@ import { PagenotfoundComponent } from './error/pagenotfound/pagenotfound.compone
 import { AboutusComponent } from './basic/aboutus/aboutus.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { LoginComponent } from './auth/login/login.component';
-
+import{ProductComponent} from './basic/product/product.component'
 
 const routes: Routes = [
   {path:'',redirectTo:'/home',pathMatch:"full"},
@@ -13,6 +13,7 @@ const routes: Routes = [
   {path:"signup",component:SignupComponent},
   {path:"home",component:HomeComponent},
   {path:"aboutus",component:AboutusComponent},
+  {path:"product",component:ProductComponent},
   {path:"**",component:PagenotfoundComponent},
 ];
 
