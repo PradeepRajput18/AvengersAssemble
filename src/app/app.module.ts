@@ -11,7 +11,8 @@ import { SignupComponent } from './auth/signup/signup.component';
 import { PagenotfoundComponent } from './error/pagenotfound/pagenotfound.component';
 import { SidenavComponent } from './profile/sidenav/sidenav.component';
 import { AboutusComponent } from './basic/aboutus/aboutus.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import{MaterialModule} from './material/material.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,11 +23,14 @@ import { AboutusComponent } from './basic/aboutus/aboutus.component';
     SignupComponent,
     PagenotfoundComponent,
     SidenavComponent,
-    AboutusComponent
+    AboutusComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
