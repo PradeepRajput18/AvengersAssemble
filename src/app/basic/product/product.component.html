@@ -1,4 +1,4 @@
-<app-topnav></app-topnav>
+<!-- <app-topnav></app-topnav>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -35,7 +35,45 @@
     <mat-checkbox  color="primary" class="example-margin font2">Popular</mat-checkbox>
     <mat-checkbox  color="primary" class="example-margin font2">Recent</mat-checkbox>
   </section>
+</div> -->
+
+<div class="body">
+  <app-topnav></app-topnav>
+
+  <div class="sidenavbar">
+            <h3 class="sidebarhead">search By companies</h3>
+            <input type="text" class="searchbox">
+            <img src="../../../assets/search.svg" class="sidebarsearch" alt="">
+
+            <h3 class="filtertag">Filter</h3>
+
+            <div>
+              <ul class="checkbox" *ngFor="let range of ranges"> 
+                <div><input type="checkbox" id="cb1" class="checkin" value="pepperoni" /><label for="cb1" class="label">{{range}}-{{range-100}}</label></div> 
+              </ul>
+            </div>
+
+            <h3 class="cattag">Categories</h3>
+
+              <div class="dropdown" >
+                  <button class="dropbtn">Dropdown</button>
+                  <div class="dropdown-content" >
+                          <div *ngFor="let range of ranges">
+                          <a href="#">{{range}}</a>
+
+                          </div>
+                  </div>
+              </div>
+
+              <h3 class="filtertag">Range</h3>
+
+              <div>
+                <ul class="checkbox" *ngFor="let range of ranges"> 
+                  <div><input type="checkbox" id="cb1" class="checkin" value="pepperoni" /><label for="cb1" class="label">{{range/100}}</label></div> 
+                </ul>
+              </div>
+
+  </div>
+
 </div>
-
-
   

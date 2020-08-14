@@ -12,4 +12,6 @@ export class ProductComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  ranges=[600,500,400,300,200,100]
+
 }
